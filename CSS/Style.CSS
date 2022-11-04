@@ -29,7 +29,8 @@ html {
 
     #div6 {display: flex;
         justify-content: center;
-    font-size: 10px;
+        align-items: center;
+    font-size: 12px;
     border: 3px dashed rgb(0, 129, 172);
     background-color: white;
     width: 100px;
@@ -39,7 +40,8 @@ html {
 
     #div7 {display: flex;
         justify-content: center;
-        font-size: 10px;
+        align-items: center;
+        font-size: 12px;
         background-color: white;
         border: 3px dashed rgb(0, 129, 172);
         width: 100px;
@@ -47,19 +49,11 @@ html {
         margin: 10px;
     }
 
-    #div8 {display: flex;
-        justify-content: center;
-        font-size: 10px;
-        background-color: white;
-        border: 3px dashed rgb(0, 129, 172);
-        width: 100px;
-        height: 30px;
-        margin: 10px;
-    }
  
     #div9 {display: flex;
         justify-content: center;
-        font-size: 10px;
+        align-items: center;
+        font-size: 12px;
         background-color: white;
         border: 3px dashed rgb(0, 129, 172);
         width: 100px;
@@ -77,46 +71,38 @@ html {
         border: 4px dashed rgb(0, 129, 172);
         margin: 10px;
         padding: 6px;
-        height: 250px;
+        height: auto;
         }
-    
 
-    .work {display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    }
+    .div1 {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        background-color:lightblue;
+        border: 4px dashed rgb(0, 129, 172);
+        margin: 10px;
+        }
 
-    #div1 {
-    display: flex; 
-    justify-content: center;
-    background-color:lightblue;
+    #mywork {display: flex;
+    justify-content:left;
     border: 4px dashed rgb(0, 129, 172);
-    margin: 10px;
-    width: auto;
-    height: 250px;
+    padding: 5px;
+    align-items: baseline;
+    margin: 20px;
     }
-    #div2 {
-    display: flex;
-    justify-content: center;
-    background-color:lightblue;
+    #mywork2 {display: flex;
     border: 4px dashed rgb(0, 129, 172);
-    margin: 10px;
-    width: auto;
-    height: 250px;
-    }
-    #div3 {
-    display: flex;
-    justify-content: center;
-    background-color:lightblue;
-    border: 4px dashed rgb(0, 129, 172);
-    margin: 10px;
-    width: auto;
-    height: 250px;
-    }
+    justify-content: right;
+    align-items: baseline;
+    padding: 5px;
+    margin: 20px;}
   
    footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-color: lightblue;
     border: 4px dashed rgb(0, 129, 172);
     margin: 10px;
