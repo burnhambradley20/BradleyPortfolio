@@ -1,3 +1,4 @@
+
 html {
     height: 100vh;
     background-color: rgb(204, 204, 204);
@@ -5,7 +6,8 @@ html {
     body {
     margin: auto;
     }
-    header {display: flex;
+    header {
+        display: flex;
         justify-content: center;
         background-image: url(https://i.pinimg.com/736x/60/dc/78/60dc782563f26343e0ae72573b3705da.jpg);
         border: 30px rgb(0, 129, 172) double;
@@ -15,7 +17,8 @@ html {
         color: rgb(0, 129, 172);
         font-size: 35px;}
 
-    .nav {display: flex;
+    .nav {
+        display: flex;
     justify-content: space-evenly;
     text-align: center;
     height: 55px;
@@ -27,7 +30,8 @@ html {
     }
 
 
-    #div6 {display: flex;
+    #div6 {
+        display: flex;
         justify-content: center;
         align-items: center;
     font-size: 12px;
@@ -38,7 +42,8 @@ html {
     margin: 10px;
     }
 
-    #div7 {display: flex;
+    #div7 {
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 12px;
@@ -50,7 +55,8 @@ html {
     }
 
  
-    #div9 {display: flex;
+    #div9 {
+        display: flex;
         justify-content: center;
         align-items: center;
         font-size: 12px;
@@ -84,19 +90,22 @@ html {
         margin: 10px;
         }
 
-    #mywork {display: flex;
+    #mywork {
+        display: flex;
     justify-content:left;
     border: 4px dashed rgb(0, 129, 172);
     padding: 5px;
     align-items: baseline;
     margin: 20px;
     }
-    #mywork2 {display: flex;
+    #mywork2 {
+        display: flex;
     border: 4px dashed rgb(0, 129, 172);
     justify-content: right;
     align-items: baseline;
     padding: 5px;
-    margin: 20px;}
+    margin: 20px;
+    }
   
    footer {
     display: flex;
@@ -106,5 +115,6 @@ html {
     background-color: lightblue;
     border: 4px dashed rgb(0, 129, 172);
     margin: 10px;
-    font-size: 20px;}
+    font-size: 20px;
+    }
 
